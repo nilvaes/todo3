@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Poppins:wght@300&display=swap');
+
+.fav {
+  background: lightgreen;
+}
+
+  body {
+    background: rgb(241, 209, 214);
+    max-width: 600px;
+    margin: 100px auto;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+  }
+
+  ul {
+    margin: 0;
+    padding: 0; 
+  }
+  
+  h1 {
+    font-size: 50px;
+    margin-bottom: 10px;
+    font-family: 'Indie Flower', cursive, sans-serif;
+  }
+
+  li {
+    list-style-type: none;
+    background: #fff;
+    margin: 10px auto;
+    padding: 10px 10px;
+    border-radius: 10px;
+    display:flex;
+    align-items: center;
+    padding-left: 10%;
+    font-size: 26px;
+  }
+
+  input {
+    margin-bottom: 50px;
+    border-radius: 10px;
+    padding: 5px 25px;
+    font-size: 18px;
+  }
+
+  .btn {
+    padding: 12px;
+    border-radius: 10px;
+    margin: 5px;
+    font-size: 20px;
+    background: rgb(79, 147, 236);
+    color: white;
+  }
+
+  .fav {
+    text-decoration: line-through;
+  }
+  
+  li button {
+    float: right; /* idk why but with this, buttons wont't be effected with line-through (found by chance)*/
+    margin-left: auto;
+    margin-right: 20px;
+    border-radius: 5px;
+    padding: 2px 8px;
+
+  }
